@@ -1,0 +1,296 @@
+var a;
+undefined
+a=100;
+100
+typeof a;
+'number'
+typeof(a);
+'number'
+typeof(((a)));
+'number'
+a= "Hello";
+'Hello'
+typeof a;
+'string'
+ a= true;
+true
+typeof a;
+'boolean'
+a=1;
+1
+typeof a;
+'number'
+a=10000000000;
+10000000000
+typeof a;
+'number'
+a=100.20;
+100.2
+typeof a;
+'number'
+a="Amit";
+'Amit'
+typeof a;
+'string'
+a='Amit';
+'Amit'
+a='A';
+'A'
+typeof a;
+'string'
+Number.MAX_SAFE_INTEGER;
+9007199254740991
+var q=9007199254740991n;
+undefined
+typeof q;
+'bigint'
+q = q + 658347657836875n;
+9665546912577866n
+typeof q;
+'bigint'
+q = q + 6876687;
+VM797:1 Uncaught TypeError: Cannot mix BigInt and other types, use explicit conversions
+    at <anonymous>:1:7
+(anonymous) @ VM797:1
+a='A';
+'A'
+typeof a;
+'string'
+a=`vbgdfjkgjkfdh
+hgjkdhdfkj
+ghjds
+hgkjd`;
+'vbgdfjkgjkfdh\nhgjkdhdfkj\nghjds\nhgkjd'
+a;
+'vbgdfjkgjkfdh\nhgjkdhdfkj\nghjds\nhgkjd'
+console.log(a);
+VM1002:1 vbgdfjkgjkfdh
+hgjkdhdfkj
+ghjds
+hgkjd
+undefined
+a=10;
+10
+b= 20;
+20
+typeof a;
+'number'
+typeof b;
+'number'
+console.log('A is '+a+' B is '+b);
+VM1229:1 A is 10 B is 20
+undefined
+var amit = {id:1001, name:'Amit', address:'Delhi'}
+undefined
+typeof amit;
+'object'
+console.log('Amit Details is '+amit);
+VM1563:1 Amit Details is [object Object]
+undefined
+console.log('Amit Details is ', amit);
+VM1761:1 Amit Details is  {id: 1001, name: 'Amit', address: 'Delhi'}
+undefined
+console.log('Amit Details is '+ amit.id);
+VM1812:1 Amit Details is 1001
+undefined
+console.log('Amit Details is ', amit);
+VM1818:1 Amit Details is  {id: 1001, name: 'Amit', address: 'Delhi'}
+undefined
+Number.MAX_SAFE_INTEGER;
+9007199254740991
+var w;
+undefined
+typeof w;
+'undefined'
+var prices= [9000,2222,4444,6666,7777];
+undefined
+typeof prices;
+'object'
+var amit = {id:1001, name:'Amit', address:'Delhi'}
+undefined
+typeof amit;
+'object'
+prices;
+(5) [9000, 2222, 4444, 6666, 7777]
+prices instanceof Array;
+true
+amit instanceof Array;
+false
+typeof Array;
+'function'
+var name ="Amit";
+undefined
+typeof name;
+'string'
+var t = 100;
+undefined
+typeof t;
+'number'
+var r = "Amit";
+undefined
+var r2 = new String("Amit");
+undefined
+typeof r2;
+'object'
+typeof r;
+'string'
+amit;
+{id: 1001, name: 'Amit', address: 'Delhi'}
+prices instanceof Array;
+true
+typeof Array;
+'function'
+amit instanceof Array;
+false
+amit instanceof Object;
+true
+prices;
+(5) [9000, 2222, 4444, 6666, 7777]
+amit;
+{id: 1001, name: 'Amit', address: 'Delhi'}
+amit = null;
+null
+typeof amit;
+'object'
+amit;
+null
+function show(){
+    console.log("I am the Show ");
+}
+undefined
+typeof show;
+'function'
+show(); // Call
+VM3234:2 I am the Show 
+undefined
+function add(){
+    console.log("I am the Add ");
+}
+undefined
+add(10,20);
+VM3442:2 I am the Add 
+undefined
+add([10,20,30],"10","Amit",20);
+VM3442:2 I am the Add 
+undefined
+console.dir(add);
+VM3671:1 ƒ add()arguments: nullcaller: nulllength: 0name: "add"prototype: {constructor: ƒ}[[FunctionLocation]]: VM3442:1[[Prototype]]: ƒ ()[[Scopes]]: Scopes[1]
+undefined
+function add(){
+    console.log("I am the Add ", arguments.length);
+}
+undefined
+add([10,20,30],"10","Amit",20);
+VM3781:2 I am the Add  4
+undefined
+add([10,20,30],"10");
+VM3781:2 I am the Add  2
+undefined
+function add(){
+    var sum = 0;
+    //console.log("I am the Add ", arguments.length);
+    for(var i = 0; i<arguments.length ; i++){
+        sum = sum + arguments[i];
+    }
+    return sum;
+}
+undefined
+add();
+0
+add(10);
+10
+add(10,20,30,40,5);
+105
+add(10,20,"30",40,5);
+'3030405'
+function add(){
+    var sum = 0;
+    //console.log("I am the Add ", arguments.length);
+    for(var i = 0; i<arguments.length ; i++){
+        sum = sum + parseInt(arguments[i]);
+    }
+    return sum;
+}
+undefined
+add(10,20,"30",40,5);
+105
+parseInt("Amit");
+NaN
+a= 10;
+10
+typeof a;
+'number'
+a = NaN;
+NaN
+typeof a;
+'number'
+"Amit " * " Srivastava"
+NaN
+"Amit " + " Srivastava"
+'Amit  Srivastava'
+"10" + "20";
+'1020'
+parseInt("10") + parseInt("20");
+30
+"10" - "20"
+-10
+add(10,20,"30","Amit",5);
+NaN
+parseInt("Amit");
+NaN
+isNaN(parseInt("Amit"));
+true
+isNaN(100);
+false
+isNaN(parseInt("Amit"))?0:1;
+0
+function add(){
+    var sum = 0;
+    //console.log("I am the Add ", arguments.length);
+    for(var i = 0; i<arguments.length ; i++){
+        sum = sum + isNaN(parseInt(arguments[i]))?0:parseInt(arguments[i]);
+    }
+    return sum;
+}
+undefined
+add(10,20,"30","Amit",5);
+5
+function add(){
+    var sum = 0;
+    //console.log("I am the Add ", arguments.length);
+    for(var i = 0; i<arguments.length ; i++){
+        sum = sum + (isNaN(parseInt(arguments[i]))?0:parseInt(arguments[i]));
+    }
+    return sum;
+}
+undefined
+add(10,20,"30","Amit",5);
+65
+function one(){
+    return 1;
+}
+undefined
+function two(){
+    return "2";
+}
+undefined
+parseInt(one);
+NaN
+parseInt(one());
+1
+add(10,20,one, two);
+30
+function add(){
+    var sum = 0;
+    //console.log("I am the Add ", arguments.length);
+    for(var i = 0; i<arguments.length ; i++){
+        if (typeof arguments[i] == "function"){
+            arguments[i] = arguments[i]();
+        }
+        sum = sum + (isNaN(parseInt(arguments[i]))?0:parseInt(arguments[i]));
+    }
+    return sum;
+}
+undefined
+add(10,20,one, two);
+33
