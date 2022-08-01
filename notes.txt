@@ -1,0 +1,47 @@
+Add a Function
+a) add(10,20);
+b) add(10,20,30,40); // N 
+c) add(10,”20”, “Amit”, “30”); 60
+d) add(10,[1,”2”,3],”30”);
+e) add(10,one, [“1”,2,two, “Amit”],30);
+
+JQuery
+
+$()
+
+
+JavaScript 
+1. Loosely Typed Language
+2. Dynamically Typed Language
+3. Client Side Inside the Browser.
+4. Brenden Eich - 10 Days - Scheme, Self , Syntax Java
+JavaScript
+VBScript
+JScript
+ECMA Script
+ES 13 - Coming Soon 2022
+A) Chromium
+b) Chrome Canary
+c) Chrome
+
+5. Netscape Navigator
+
+Data Types
+AutoBoxing
+Primitive Type - Value / Immutable
+Value Type
+a) number
+B) string
+c) boolean
+D) bigint
+e) undefined
+f) null
+G) Symbol (Rare to Use / ES6)
+
+
+Reference —> Type (Function)
+Mutable
+
+10 AM to 11AM - Practice
+Reference (Address)
+A) object, Array , Function
