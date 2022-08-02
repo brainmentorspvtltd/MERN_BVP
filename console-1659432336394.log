@@ -1,0 +1,121 @@
+function add(){
+    console.log(z); 
+    if(10>2){
+    var z = 100;
+    }
+    console.log(z);
+}
+undefined
+add();
+VM384:2 undefined
+VM384:6 100
+undefined
+var q;
+undefined
+var q =10000;
+undefined
+window;
+Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+typeof window;
+'object'
+window.q;
+10000
+this;
+Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+window == this;
+true
+10 == 10;
+true
+10 === 10;
+true
+10 =="10"
+true
+function add(){
+    console.log(z); 
+    if(10>2){
+    let z = 100;
+    }
+    console.log(z);
+}
+undefined
+add();
+VM730:2 Uncaught ReferenceError: z is not defined
+    at add (<anonymous>:2:17)
+    at <anonymous>:1:1
+add @ VM730:2
+(anonymous) @ VM753:1
+function add(){
+    var z = 200;
+    console.log(z); 
+    if(10>2){
+    var z = 100;
+    }
+    var z = 300;
+    console.log(z);
+}
+undefined
+add();
+VM840:3 200
+VM840:8 300
+undefined
+function add(){
+    let z = 200;
+    console.log(z); 
+    if(10>2){
+    let z = 100;
+    }
+    let z = 300;
+    console.log(z);
+}
+VM901:7 Uncaught SyntaxError: Identifier 'z' has already been declared
+function add(){
+    let z = 200;
+    console.log(z); 
+    if(10>2){
+    let z = 100;
+    }
+    //let z = 300;
+    console.log(z);
+}
+undefined
+function add(){
+    console.log(z);
+    let z = 200;
+    console.log(z); 
+    if(10>2){
+        console.log(z);
+    let z = 100;
+    }
+    //let z = 300;
+    console.log(z);
+}
+undefined
+add();
+VM993:2 Uncaught ReferenceError: Cannot access 'z' before initialization
+    at add (<anonymous>:2:17)
+    at <anonymous>:1:1
+add @ VM993:2
+(anonymous) @ VM1023:1
+function add(){
+    //console.log(z);
+    let z = 200;
+    console.log(z); 
+    if(10>2){
+        console.log(z);
+    let z = 100;
+    }
+    //let z = 300;
+    console.log(z);
+}
+undefined
+add();
+VM1035:4 200
+VM1035:6 Uncaught ReferenceError: Cannot access 'z' before initialization
+    at add (<anonymous>:6:21)
+    at <anonymous>:1:1
+add @ VM1035:6
+(anonymous) @ VM1058:1
+var name = prompt("Enter the Name ");
+undefined
+name;
+'Amit'
