@@ -1,0 +1,18 @@
+Problem Statement : Add a New Question
+a) MVC
+
+Controller
+0) BindEvents on window load
+1) Take the value of all inputs and store in variable?
+Immediate Solution : 
+Assign the id  - DOM - DRY
+
+This Part Goes in Service and Model
+2) Store the values in object
+Now object store in array
+Now on Array we do CRUD
+
+3) a) Table a Row created dynamically
+B) Inside Row Create Cells
+c) Fill the value in Cell
+
