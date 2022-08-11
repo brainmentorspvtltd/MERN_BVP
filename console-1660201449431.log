@@ -1,0 +1,18 @@
+class A{}
+undefined
+const props = {cssclass:'primary', label:'+'};
+undefined
+typeof props;
+'object'
+props.cssclass;
+'primary'
+props.label;
+'+'
+const {label} = props;
+undefined
+label;
+'+'
+const {label, cssclass} = props;
+undefined
+cssclass;
+'primary'
