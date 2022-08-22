@@ -1,0 +1,19 @@
+Steps 
+To get the data from the network and render on component
+a) Maintain the URL / EndPoint in .env File , and Key must be start with REACT_APP Prefix 
+Note : Whenever we change in the .env file we need to restart the application.
+Stop by Pressing Ctrl + C in Terminal and then start again by npm start.
+
+b) Call the API By Using axios , we maintain in API_CLIENT.js ,and it returns promise.
+
+c) We need to get the data in Component, Either on Some Event or either when component is Mount.
+If Data need in Component Mount Phase, then use useEffect Hook.
+So UseEffect hook get the data from the API_CLIENT
+You get the promise and get the data in then and set in state.
+
+d) When data is set in state component will re-render.
+So we iterate the data using map and print it.
+
+
+Card UI- https://mui.com/material-ui/react-card/
+Pizza JSON - https://gist.githubusercontent.com/kshirsagarps/36fade16fa39202715656ef487aaf7b0/raw/2b682e589ef283f06be42d2799dfa54f57794a6e/Pizza.json
