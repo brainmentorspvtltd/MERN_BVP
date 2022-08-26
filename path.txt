@@ -1,0 +1,82 @@
+C++/ C - System Developer
+B.TECH - Application Developer
+Campus 
+
+Round-1
+MCQ
+APT + RE + English
+OOPS + SOLID + DRY + GOD + KISS - Project - Java - GUI
+Design Patterns - Nice to Have
+e.g MVC
+DBMS, OS , Networking - Core Subjects
+
+10 * 60 = 600
+Iteration and Recursion
+Round-2 Coding / Logic Testing 
+Language - DSA 
+600-1000 Questions Solve
+Crash Course 
+LeetCode Premium 11000
+LinkedList 
+
+10 Questions Each Day
+5 - Easy
+3 - Medium
+2 - Hard
+
+Skills
+Own Project
+
+Internships
+
+Round-3
+Project Round
+
+
+JavaScript - Language
+ES6 to ES12
+Interview Questions
+3 Mini Application 
+
+HTML 4, 5 + CSS 2, 3, Bootstrap
+
+React - 
+Redux
+Axios
+Testing
+Routing
+React 18
+
+WebPack - Nice to Have
+
+
+
+
+
+
+
+
+Node JS  - Module + Core Module (fs, path, http, https etc)
+3rd Party Integrate (NPM)
+Deployment on AWS
+WebSite, WebServices, POSTMAN
+
+
+Express JS
+
+
+
+1. Https - Secure - DONE
+2. PM2 - Load (Max CPU) - DONE
+3. API Create (JSON Produce, JSON Consume)
+4. React Node Integrate
+
+
+Express JS , MongoDB
+CRUD 
+
+PostMan Test
+
+3rd Party + AWS
+
+RoadMap
