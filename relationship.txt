@@ -1,0 +1,32 @@
+const CONFIG = require('../utils/config');
+const { Schema } = require('mongoose');
+const connection  = require('../utils/db');
+const AdminSchema = new Schema({
+    email:{type:Schema.Types.String, required:true, unique:true},
+    password:{type:Schema.Types.String, required:true,min:8, max:25},
+    otp:{type:Schema.Types.String, required:true},
+    logintime:{type:Schema.Types.Date,default:new Date()}
+
+
+}, {timestamps:true});
+const AdminModel = connection.model(CONFIG.SCHEMAS.ADMIN,AdminSchema);
+module.exports = AdminModel;
+
+
+
+const { Schema } = require('mongoose');
+const CONFIG = require('../utils/config');
+const connection  = require('../utils/db');
+const CategorySchema = new Schema({
+    'name':{type:Schema.Types.String, required:true, unique:true},
+    'description':{type:Schema.Types.String, required:true},
+    'status':{type:Schema.Types.String, default:'A'},
+    'author':{type: Schema.Types.ObjectId, ref:CONFIG.SCHEMAS.ADMIN,required:true}
+    //,
+     /*'courses':[{
+        type:Schema.Types.ObjectId, ref:CONFIG.SCHEMAS.COURSES   // One to Many
+     }]*/
+
+}, {timestamps:true});
+const CategoryModel = connection.model(CONFIG.SCHEMAS.CATEGORIES,CategorySchema);
+module.exports = CategoryModel;
