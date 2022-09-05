@@ -34,7 +34,7 @@ App Name:
 18. TimeTable App - React , PDF Download - Hiten, Paritosh
 19. Reminder App - Notification (FireBase Cloud Message )
 20. FaceBook page connector - FaceBook API
-21. Chat Assistance - Socket.io (Public Chat) (Varun + S) / Chat What’s App - Mayank G
+21. Chat Assistance - Socket.io (Public Chat) (Varun + S) / Chat What’s App - Mayank G, Dhurv, Kunal
 22. LeetCode - Compiler, TestCases 
 23. Attendance App  - CRUD - Shashank, Vipul
 24. Movie Booking App - CRUD / Shopping - Sanchit , Ananya
